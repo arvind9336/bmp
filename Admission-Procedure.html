@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>bmp.edu.in</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #pal li {
+            display: inline;
+
+        }
+
+        .gallery {
+            transform: all 0.3s;
+        }
+
+        .gallery:hover {
+            transform: scale(1.1);
+        }
+
+        #ak {
+            border-radius: black;
+            transform: all 0.3s;
+        }
+
+        #ak:hover {
+            transform: scale(1.05);
+        }
+
+        #a1 {
+
+            transform: all 0.3s;
+        }
+
+        #a1:hover {
+
+            transform: scale(1.3);
+        }
+
+        #a2 {
+
+            transform: all 0.3s;
+        }
+
+        #a2:hover {
+
+            transform: scale(1.3);
+        }
+
+        #a3 {
+
+            transform: all 0.3s;
+        }
+
+        #a3:hover {
+
+            transform: scale(1.3);
+        }
+
+        #a4 {
+
+            transform: all 0.3s;
+        }
+
+        #a4:hover {
+
+            transform: scale(1.3);
+        }
+
+        #a5 {
+
+            transform: all 0.3s;
+        }
+
+        #a5:hover {
+
+            transform: scale(1.3);
+        }
+
+
+        /* #pal1 li {
+            display: inline;
+            margin: 3px;
+        } */
+    </style>
+    <!-- <script>
+        
+    </script> -->
+</head>
+
+<body>
+    <!-- navbar section start -->
+    <div class="container-fluid px-0">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.png" alt="img" width="70" height="65" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index1.html"><i
+                                    class="fa-solid fa-house"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html"><i class="fa-solid fa-circle-info"></i> About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-graduation-cap"></i> Academics
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/Preprimary.html">Pre Primary</a></li>
+                                <li><a class="dropdown-item" href="/Middle.html">Middle School</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/Secondary.html">Secondary School</a></li>
+                                <li><a class="dropdown-item" href="/Srsecondary.html">Sr Sec School</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/Rules.html">Rules And Guidelines</a></li>
+                                <li><a class="dropdown-item" href="/Tc.html">Transfer Certificate Formats</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-regular fa-id-card"></i> Admission
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/Admission-Procedure.html">Admission Procedure</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/Admission-Form.html">Admission Form</a></li>
+                                <li><a class="dropdown-item" href="/Fee-Structure.html">Fee Structure</a></li>
+                                <!-- <li><a class="dropdown-item" href="/timetable4.html">9th to 12th Boys</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-calendar-days"></i> Time table
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/timetable1.html">L.K.G to 5th</a></li>
+                                <li><a class="dropdown-item" href="/timetable2.html">6th to 8th</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/timetable3.html">9th to 12th Girls</a></li>
+                                <li><a class="dropdown-item" href="/timetable4.html">9th to 12th Boys</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gallery.html"><i class="fa-solid fa-image"></i> Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html"><i class="fa-solid fa-square-phone"></i> Contact
+                                Us</a>
+                        </li>
+                    </ul>
+
+                    <li class="nav-item" style="list-style-type: none;">
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                            data-bs-target="#myModal">
+                            Login
+                        </button>
+                        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title " id="exampleModalLabel">WELCOME</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body ">
+                                        <div class="container d-flex  align-items-center min-vh-90">
+                                            <div class="row">
+                                                <div class="col-md-5 left-box" style="background-color: aqua;">
+                                                    <img class="img-fluid" src="./img/36.png" width="250px" alt="">
+                                                    <p style="text-align: center;">Be verified <br><small
+                                                            style="text-align: center;">welcome to B.M.P Public
+                                                            School</small></p>
+                                                </div>
+                                                <div
+                                                    class="col-md-7 right-box justify-content-center align-items-center">
+                                                    <div class="header-items">
+                                                        <h1>Hello again! </h1>
+                                                        <p>We are happy to have you back </p>
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <input type="text"
+                                                            class="form-control form-control-lg bg-light fs-6"
+                                                            placeholder="Enter your Email">
+                                                    </div>
+                                                    <div class="input-group mb-1">
+                                                        <input type="password"
+                                                            class="form-control form-control-lg bg-light fs-6"
+                                                            placeholder="Enter your password">
+                                                    </div>
+                                                    <div class="input-group mb-5 justify-content-between">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" class="form-check-input"
+                                                                id="form-check">
+                                                            <label for="form-check"
+                                                                class="form-check-label"><small>Remember
+                                                                    me</small></label>
+                                                        </div>
+                                                        <div class="forgot">
+                                                            <small><a href="" style="color: blue;">Forgot
+                                                                    password</a></small>
+                                                        </div>
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <button class="btn btn-primary btn-lg w-100 fs-6">Login</button>
+                                                    </div>
+                                                    <div class="input-group mb-1">
+                                                        <button class="btn btn-light btn-lg w-100  fs-6"><img
+                                                                src="./img/38.jpeg" width="20px" alt=""> <small
+                                                                class="mb-2">Login with google</small></button>
+                                                    </div>
+                                                    <div class="mt-2 w-100">
+                                                        <small>Don't have account? <a href=""
+                                                                style="color: blue;">Signup</a>
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                    <!-- <li class="nav-item" style="list-style-type: none;">
+                        <a class="nav-link active" aria-current="page" href="/"><i class="fa fa-user-plus"
+                                aria-hidden="true"></i> Sign Up</a>
+                    </li> -->
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar section end -->
+    <div class="container mt-5">
+        <h5>gsuygihoimouctrsxrsybiuiucyhfhxtr</h5>
+    </div>
+
+    <!-- search section start -->
+    <div class="container my-5" id="a" style="text-align: center; justify-content: center;">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4" id="c">
+                <button class="btn btn-outline-success" type="submit" onclick="search()"><i
+                        class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <hr>
+    <!-- search section end -->
+
+
+    <div class="container my-5">
+        <h1 style="text-align: center;">Admission procedure in B.M.P. Public School!</h1><br><br>
+        <h5>Application Form: The admission process starts with filling out the application form, available on the school website or in person from the Admission Office.</h5><br>
+        <h5>Entrance Test: After submitting the application form, the applicant will be required to take an entrance test. The test is designed to evaluate the student’s knowledge in subjects such as Mathematics, English, and Science.
+        </h5><br>
+        <h5>Interview: After the entrance test, the school may call the student for a personal interview with the Principal/Admission Committee. The interview helps the school to understand the student’s personality, aspirations, and interests.</h5><br>
+        <h5>Documents Verification: The school will ask the student to provide various documents, including copy of birth certificate, school records, and transfer certificate in original of the previous school.
+        </h5><br>
+        <h5>Admission Decision: After the documents verification, entrance test, and interview, the admission committee will decide whether to admit the student or not. The admission process is merit-based, and the final decision is at the discretion of the admission committee.</h5><br>
+        <h5>Payment of Fees: Once the student is admitted, the parents/guardians will have to pay the admission fees and tuition fees on time.</h5><br>
+        <h4>In summary, the admission process at B.M.P. Public School, BHADOHI is transparent and ensures that the school admits students who meet the academic and personal criteria. The school welcomes students from all backgrounds and cultures to apply for admission.</h4><br>
+        <h3>Warmest regards,</h3><br>
+        <h5><span class="text-muted">Shivdhari lal yadav <br>Principal,B.M.P. Public School</span></h5>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- popup section start  -->
+    <!-- <div class="modal" id="AddModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ADMISSION OPEN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">$times;</button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/15.jpg" width="470px" height="700px" alt="ADMISSION OPEN">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- popup section end -->
+
+
+
+    <!-- footer section start-->
+    <div class="container-fluid " style="background-color: #e3f2fd; padding: 20px;">
+        <div class="row">
+            <div class="col-md-3" style="text-align: center;">
+                <a href="https://shorturl.at/ghF47" style="text-decoration: none; color: black;">
+                    <p><img src="./img/loc.png" width="60px" height="55px" alt="add"><br>
+                        Rudrapur(Ghamahapur) Bhadohi<br>
+                        Pin code:-221401(UP)
+                    </p>
+                </a>
+                <p><img src="./img/telephone.png" width="30px" height="25px" alt="phone"> <a href="tel: +919793589048">
+                        +91 9793589048 </a></p>
+                <p><img src="./img/gmail.png" width="30px" height="25px" alt="gmail"> <a
+                        href="mailto:support@nxttour.in"> Support@gmail.com</a></p>
+            </div>
+            <div class="col-md-6" style="text-align: center;">
+                <p><img src="./img/logo.png" width="70" height="65" alt="logo"></p>
+                <div class="container" style="text-align: center;">
+                    <ul style="list-style-type:none; ">
+                        <li style="display: inline; margin: 5px;"><a href="/index1.html">Home</a></li>
+                        <li style="display: inline; margin: 5px;"><a href="/about.html">About</a></li>
+                        <li style="display: inline;margin: 5px;"><a href="/gallery.html">Gallery</a></li>
+                        <li style="display: inline;margin: 5px;"><a href="/contact.html">Contact us</a></li>
+                    </ul>
+                    <h5>"सर्वद्रव्येषु विद्यैव द्रव्यमाहुरनुत्तमम् ।<br>
+                        अहार्यत्वादनध्यत्वादक्षयत्वाच्च सर्वदा॥"</h5>
+                </div>
+            </div>
+            <div class="col-md-3" style="text-align: center;">
+                <h6>"Education is the most powerful weapon which you can use to change the world !"</h6>
+                <h5>― Nelson Mandela</h5><br>
+                <div class="container-md-5">
+                    <ul id="pal" style="list-style-type: none; margin-bottom: 30px;">
+                        <li class="ms-3"><a class="text-muted d-inline-block " id="a1"
+                                href="https://api.whatsapp.com/send/?phone=919793589048&amp;text=i want to need some help"><img
+                                    src="./img/whatsapp.png" width="30px" height="25px" alt=""></a></li>
+                        <li class="ms-3"><a class="text-muted d-inline-block" id="a2"
+                                href="https://instagram.com/b.m.p_public_school?igshid=ZDc4ODBmNjlmNQ=="><img
+                                    src="./img/instagram.png" width="30px" height="25px" alt=""></a></li>
+                        <li class="ms-3"><a class="text-muted d-inline-block" id="a3"
+                                href="https://t.me/@ak_pal_1234"><img src="./img/telegram.png" width="30px"
+                                    height="25px" alt=""></a></li>
+                        <li class="ms-3"><a class="text-muted d-inline-block" id="a4" href=""><img
+                                    src="./img/facebook.png" width="30px" height="25px" alt=""></a></li>
+                        <li class="ms-3"><a class="text-muted d-inline-block" id="a5"
+                                href="https://www.youtube.com/@b.m.pclasses8510"><img src="./img/youtube.png"
+                                    width="30px" height="25px" alt=""></a></li>
+                    </ul>
+                </div>
+<<<<<<< HEAD
+                <a href="/developer.html">Developer Team</a>
+=======
+                <a href="developer.html">Developoer Team</a>
+>>>>>>> 0032cbdfb0cb57db97906751e7f16ef6ac82cc78
+            </div>
+        </div>
+
+    </div>
+    <!-- footer section end -->
+
+
+    <script>
+        function search() {
+            let t = '<div class="row"><div class="col-md-4"></div><div class="col-md-4" id="c"><form class="d-flex" role="search"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></form></div><div class="col-md-4"></div></div>'
+            document.getElementById("a").innerHTML = t;
+        }
+    </script>
+</body>
+
+</html>
